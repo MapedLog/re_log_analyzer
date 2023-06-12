@@ -15,7 +15,6 @@ def analysis(data, parameters):
         analyzed.update(eps(data, str(parameters['eps'])))
     if "bytes" in to_analyze:
         analyzed.update(bytes(data, str(parameters['bytes'])))
-    print(str(analyzed))
     return analyzed
 
 def top_ip(data, fields):
