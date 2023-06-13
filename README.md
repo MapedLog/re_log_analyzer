@@ -97,4 +97,4 @@ https://www.secrepo.com/squid/access.log.gz
 - [ ] Usage of pandas to output statistics and correlation on graphics
 - [ ] Accept more filetypes than CSV or JSON, giving the option for a custom parser
 - [ ] Generate more statistics options to give more insight to analyst
-- [ ] Analyze more than a single type of format at the same time. This is to 
+- [ ] Analyze more than a single type of format at the same time, without having to execute multiple times the same script.
