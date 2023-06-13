@@ -53,10 +53,10 @@ After it, the command can be run on the terminal
 
 First, build the docker image from the Dockerfile
 
-`docker build -t re_log_analyzer .`
+`docker build -t re_log_analyzer . `
 
 Remember, before running that volume is stated on `/data` path inside the container. Remember also to write `inputfile` and `outputfile`
-`docker run -it  -v /data:</path/for_your_files> re_log_analyzer:latest <inputfile> <outputfile> ...
+`docker run -it  -v /data:</path/for_your_files> re_log_analyzer:latest <inputfile> <outputfile> ...`
 
 ##  PARAMETERS
 
@@ -71,6 +71,7 @@ instructions on how to run it as a container/service
 Program arguments
 - Arguments:
 `inputfile : Path to one or more input files
+
 outputfile : Path to a file to save output in plain text JSON format`
 - Options:
 `--mfip : most frequent IP. Must specify field names. If more than one, split them by commas. "field1,field2"
