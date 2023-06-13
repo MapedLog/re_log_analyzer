@@ -87,12 +87,13 @@ Default:" csv,whitespace"
 ```
 
 ## SAMPLE DATA
-
+Remember to uncompress the data before
 https://www.secrepo.com/squid/access.log.gz
 
 ## ROADMAP
 
-- [] Usage of pandas to output statistics and correlation on graphics
-- [] Accept more file types than CSV or JSON, giving the option for a custom parser
-- [] Generate more statistics options to give more insight to analyst
-- [] Analyze more than a single type of format at the same time. This is to 
+- [ ] Accept compressed files which contains multiple files inside
+- [ ] Usage of pandas to output statistics and correlation on graphics
+- [ ] Accept more file types than CSV or JSON, giving the option for a custom parser
+- [ ] Generate more statistics options to give more insight to analyst
+- [ ] Analyze more than a single type of format at the same time. This is to 
