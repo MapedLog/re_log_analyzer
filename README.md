@@ -87,13 +87,14 @@ Default:" csv,whitespace"
 ```
 
 ## SAMPLE DATA
-Remember to uncompress the data before
+This is the sample data used to test the script, among with other filetypes. Remember to uncompress the data before analyzing it
+
 https://www.secrepo.com/squid/access.log.gz
 
 ## ROADMAP
 
 - [ ] Accept compressed files which contains multiple files inside
 - [ ] Usage of pandas to output statistics and correlation on graphics
-- [ ] Accept more file types than CSV or JSON, giving the option for a custom parser
+- [ ] Accept more filetypes than CSV or JSON, giving the option for a custom parser
 - [ ] Generate more statistics options to give more insight to analyst
 - [ ] Analyze more than a single type of format at the same time. This is to 
