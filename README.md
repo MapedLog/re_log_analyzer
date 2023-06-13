@@ -56,7 +56,7 @@ First, build the docker image from the Dockerfile
 `docker build -t re_log_analyzer . `
 
 Remember, before running that volume is stated on `/data` path inside the container. Remember also to write `inputfile` and `outputfile`
-`docker run -it  -v /data:</path/for_your_files> re_log_analyzer:latest <inputfile> <outputfile> ...`
+```docker run -it  -v /data:</path/for_your_files> re_log_analyzer:latest <inputfile> <outputfile> ...```
 
 ##  PARAMETERS
 
@@ -70,11 +70,12 @@ in mind. Consider different input or output formats.
 instructions on how to run it as a container/service
 Program arguments
 - Arguments:
-`inputfile : Path to one or more input files
-
-outputfile : Path to a file to save output in plain text JSON format`
+```
+inputfile : Path to one or more input files
+outputfile : Path to a file to save output in plain text JSON format
+```
 - Options:
-`--mfip : most frequent IP. Must specify field names. If more than one, split them by commas. "field1,field2"
+```--mfip : most frequent IP. Must specify field names. If more than one, split them by commas. "field1,field2"
 --lfip : least frequent IP. If more than one, split them by commas. "field1,field2"
 --eps : events per second. If more than one, split them by commas. "field1,field2"
 --bytes : total amount of bytes exchanged. If more than one, split them by commas. "field1,field2"
@@ -82,7 +83,8 @@ outputfile : Path to a file to save output in plain text JSON format`
  Default: "date,float;header_bytes,int;client_IP,string;http_code,string;response_bytes,int;http_req,string;url,string;user,string;accessType_destIP,string;resp_type,string"
 --outputformat, data format for the outputfile. Options: "json","csv"
 --inputformat , data format for the inputfile. Options: "json","csv". CSV format is customizable. It can be chosen between quote, whitespace, comma, or tab -delimited
-Default:" csv,whitespace"`
+Default:" csv,whitespace"
+```
 
 ## SAMPLE DATA
 
