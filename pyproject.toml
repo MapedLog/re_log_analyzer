@@ -1,0 +1,10 @@
+[project]
+name = "re_log_analyzer"
+version = "1.0"
+authors = [{ name="MapedLog", email="c1n90bf32hoakjq3@mailfence.com"}]
+description = "A small log analyzer"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["pandas"]
+[project.scripts]
+re_log_analyzer = "main:main"
